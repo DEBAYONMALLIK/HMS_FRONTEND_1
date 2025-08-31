@@ -3,19 +3,19 @@ import toast from "react-hot-toast";
 
 import axiosInstance from "../../Helpers/axiosInstance";
 
-const initialState={
-    isLoggedIn:localStorage.getItem("isLoggedIn") || false,
-    role:localStorage.getItem("role") || '',
-    data:localStorage.getItem('data') || {}
-}
+// const initialState={
+//     isLoggedIn:localStorage.getItem("isLoggedIn") || false,
+//     role:localStorage.getItem("role") || '',
+//     data:localStorage.getItem('data') || {}
+// }
 
 // use json.parse to convert json to java script object
 
-// const initialState = {
-//     isLoggedIn: JSON.parse(localStorage.getItem("isLoggedIn")) || false,
-//     role: JSON.parse(localStorage.getItem("role")) || '',
-//     data: JSON.parse(localStorage.getItem('data')) || {}
-// };
+const initialState = {
+    isLoggedIn: JSON.parse(localStorage.getItem("isLoggedIn")) || false,
+    role: JSON.parse(localStorage.getItem("role")) || '',
+    data: JSON.parse(localStorage.getItem('data')) || {}
+};
 
 
 const AuthSlice=createSlice({

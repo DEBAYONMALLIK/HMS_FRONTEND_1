@@ -24,8 +24,11 @@ function ChatBotWidget() {
     const symptomQuery = userData; // save before clearing
     setUserData("");
 
+        const prod_api="https://nlpchatapp.onrender.com/api/recommend"
+        const dev_api="http://localhost:3001/api/recommend"
     try {
-      const res = await axios.post("http://localhost:3001/api/recommend", {
+      const res = await axios.post(prod_api, // change this to dynamic backend API
+        {
         symptoms: symptomQuery,
       });
 
