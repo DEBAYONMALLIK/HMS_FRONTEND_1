@@ -58,7 +58,7 @@ async function handleLogOut(e){
                     <li> 
                       
                       <div className="flex justify-between  z-10">
-                        <Link to="/">Home</Link>
+                        <Link to="/">home</Link>
                         <button>< IoIosCloseCircleOutline  className="h-5 w-5" onClick={close_drawer}/></button>
                       </div>
                       
