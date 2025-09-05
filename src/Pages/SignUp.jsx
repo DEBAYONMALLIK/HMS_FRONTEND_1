@@ -60,7 +60,7 @@ function SignUp(){
         event.preventDefault();
         // console.log(signupData);
         // CHECKING FOR ALL THE FIELDS
-         if(!signupData.name ||  !signupData.email || !signupData.password || !signupData.avatar || !signupData.role){
+         if(!signupData.name ||  !signupData.email || !signupData.password || !signupData.role){
             toast.error("please fill all the details");
             return
          }
