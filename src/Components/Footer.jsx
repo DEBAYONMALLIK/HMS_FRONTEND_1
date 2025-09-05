@@ -13,19 +13,19 @@ function Footer(){
 
   <section className="flex gap-5 justify-center items-center text-2xl text-white" >
 
-    <a href="" className="hover:text-yellow-500 transition-all duration-300 ease-in-out"> 
+    <a href="https://www.facebook.com/assasins.creed.104418" className="hover:text-yellow-500 transition-all duration-300 ease-in-out"> 
       <BsFacebook ></BsFacebook>
     </a>
       
-     <a href="" className="hover:text-yellow-500 transition-all duration-300 ease-in-out"> 
+     <a href="https://www.instagram.com/linkin_park801/?hl=en" className="hover:text-yellow-500 transition-all duration-300 ease-in-out"> 
       <BsInstagram ></BsInstagram>
     </a>
     
-     <a href="" className="hover:text-yellow-500 transition-all duration-300 ease-in-out"> 
+     <a href="https://www.linkedin.com/in/debayon-mallik-095900244/" className="hover:text-yellow-500 transition-all duration-300 ease-in-out"> 
       <BsLinkedin ></BsLinkedin>
     </a>
     
-     <a href="" className="hover:text-yellow-500 transition-all duration-300 ease-in-out"> 
+     <a href="https://x.com/?&" className="hover:text-yellow-500 transition-all duration-300 ease-in-out"> 
       <BsTwitter ></BsTwitter>
     </a>
     
